@@ -1,8 +1,13 @@
+# Virtual environments
 venv_codetr/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
 
-# Large model files
+# Model checkpoints and results (large files)
 *.pth
 *.pkl
 work_dirs/
@@ -13,5 +18,17 @@ data/
 
 # Build artifacts
 build/
-*.egg-info/
 mmcv_build/
+Co-DETR/build/
+*.so
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.bak

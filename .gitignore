@@ -1,0 +1,17 @@
+venv_codetr/
+__pycache__/
+*.pyc
+
+# Large model files
+*.pth
+*.pkl
+work_dirs/
+
+# Data
+data/
+*.dicom
+
+# Build artifacts
+build/
+*.egg-info/
+mmcv_build/
